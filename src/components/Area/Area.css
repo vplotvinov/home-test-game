@@ -1,0 +1,37 @@
+.area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid #282c34;
+    width: auto;
+}
+
+.row:first-child {
+    border-top: 1px solid #282c34;
+}
+
+.col {
+    width: 50px;
+    height: 100%;
+    border-right: 1px solid #282c34;
+}
+
+.col:first-child {
+    border-left: 1px solid #282c34;
+}
+
+.col--user {
+    background-color: darkred;
+}
+
+.col--block {
+    background-color: black;
+}
